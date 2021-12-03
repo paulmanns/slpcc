@@ -3,8 +3,9 @@ Prototypical python implementation of the trust-region algorithm presented in Se
 
 # Installation instructions
 
+After cloning the repository you can install the package using pip with the command
 
 ```bash
-$ pip install matplotlib numpy scipy Cython
+$ pip install .
 
 ```
