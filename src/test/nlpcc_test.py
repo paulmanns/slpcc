@@ -75,7 +75,6 @@ class TestQpwlExamples(unittest.TestCase):
         self.assertTrue(np.isclose(f, ex.opt_f))
 
     def test_solve_simple_models_bqp(self):
-        return
         import slpcc.examples.gnash1mal as gnash1mal
         import slpcc.examples.gnash2mal as gnash2mal
         ex = gnash1mal.Gnash1MAL()
@@ -104,7 +103,6 @@ class TestQpwlExamples(unittest.TestCase):
         self.assertTrue(np.isclose(fb, ex.opt_f))
 
     def test_solve_simple_models(self):
-        return
         import slpcc.examples.gnash1mal as gnash1mal
         import slpcc.examples.gnash2mal as gnash2mal
 
