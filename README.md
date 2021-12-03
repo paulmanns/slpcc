@@ -9,3 +9,10 @@ After cloning the repository you can install the package using pip with the comm
 $ pip install .
 
 ```
+
+Check if the code is working with
+
+```bash
+$ python src/test/nlpcc_test.py
+```
+
